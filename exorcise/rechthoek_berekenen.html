@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+  <meta name="author" content="Ian Hartog">
+  <meta name="description" content="Javascript 1">
+  <meta charset="utf-8">
+  <title>Rechthoek berekenen</title>
+  <style>
+    body {
+      text-align: center;
+    }
+    #bereken {
+      text-decoration: underline;
+    }
+    img {
+      position: absolute;
+      top: 300px;
+      left: 100px;
+    }
+  </style>
+</head>
+
+<body>
+    <h3>Bereken een rechthoek</h3>
+  <ul>
+    <li>lengte <input type=text id="lengte" placeholder="vul getal in"></li>
+    <li>breete <input type=text id="breete" placeholder="vul getal in"></li>
+    <li>opervlakte:<div id=oppervlakte>0</div></li>
+      <li>omtrek:<div id=omtrek>0 </div></li>
+<li>diagonaal:<div id=diagonaal>0 </div></li>
+  </ul>
+  <div id="bereken">bereken</div>
+  <canvas id="rechthoek" width="1000" height="1000"></canvas>
+
+
+<img src="media/square.jpg">
+
+</body>
+<script src="js/square.js"></script>
+
+</html>
